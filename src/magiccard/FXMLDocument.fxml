@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="264.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="magiccard.FXMLDocumentController">
+    <children>
+        <Button fx:id="carta1" disable="true" layoutX="22.0" layoutY="90.0" onAction="#carta1" prefHeight="125.0" prefWidth="75.0" text="Carta I" />
+        <Button fx:id="carta2" disable="true" layoutX="133.0" layoutY="90.0" onAction="#carta2" prefHeight="125.0" prefWidth="69.0" text="Carta II" />
+        <Button fx:id="carta3" disable="true" layoutX="248.0" layoutY="90.0" onAction="#carta3" prefHeight="125.0" prefWidth="69.0" text="Carta III" />
+
+        <Label fx:id="game" layoutX="412.0" layoutY="64.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="297.0" text="" />
+        <Label fx:id="vinte" layoutX="412.0" layoutY="19.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="297.0" text="" />
+        <Label fx:id="percentuale" layoutX="412.0" layoutY="104.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="297.0" text="" />
+        
+        <Button fx:id="start_continue" layoutX="22.0" layoutY="14.0" onMouseClicked="#reset" text="Inizia ! " />
+      <Separator layoutX="357.0" layoutY="20.0" orientation="VERTICAL" prefHeight="200.0" />
+    </children>
+</AnchorPane>
