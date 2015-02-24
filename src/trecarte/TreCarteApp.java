@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package magiccard;
+package trecarte;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  *
  * @author Administrator
  */
-public class MagicCard extends Application {
+public class TreCarteApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {

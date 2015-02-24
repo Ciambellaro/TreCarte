@@ -1,4 +1,4 @@
-package magiccard;
+package trecarte;
 
 import java.util.Random;
 import javafx.fxml.FXML;

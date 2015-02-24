@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="264.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="magiccard.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="264.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trecarte.FXMLDocumentController">
     <children>
         <Button fx:id="carta1" disable="true" layoutX="22.0" layoutY="90.0" onAction="#carta1" prefHeight="125.0" prefWidth="75.0" text="Carta I" />
         <Button fx:id="carta2" disable="true" layoutX="133.0" layoutY="90.0" onAction="#carta2" prefHeight="125.0" prefWidth="69.0" text="Carta II" />
